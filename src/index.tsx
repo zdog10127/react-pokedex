@@ -15,7 +15,7 @@ ReactDOM.render(
         <title>React Pokédex</title>
         <meta
           name="description"
-          content="a simple pokédex for your pokemon needs."
+          content="um pokédex simples para suas necessidades de pokemon."
         />
       </Helmet>
       <Provider store={store}>

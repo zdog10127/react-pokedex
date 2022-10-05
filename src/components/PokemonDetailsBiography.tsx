@@ -29,23 +29,23 @@ const PokemonDetailsBiography = ({ pokemon, species }: Props) => {
         </p>
         <ul className="mt-5">
           <PokemonInformation
-            title="Species"
+            title="Espécies"
             content={
               species.genera.find((gen) => gen.language.name === "en")?.genus
             }
           />
           <PokemonInformation
-            title="Height"
+            title="Altura"
             content={`${feet}'${leftPad(Number(inches) % 12, 2)}" (${
               pokemon.height / 10
             }m)`}
           />
           <PokemonInformation
-            title="Weight"
+            title="Peso"
             content={`${(pokemon.weight / 10).toFixed(1)} kg`}
           />
           <PokemonInformation
-            title="Abilities"
+            title="Habilidades"
             content={pokemon.abilities.map((ability, index) => (
               <li
                 key={`ability=${ability.ability.name}`}
@@ -57,7 +57,7 @@ const PokemonDetailsBiography = ({ pokemon, species }: Props) => {
             ))}
           />
           <PokemonInformation
-            title="Gender"
+            title="Genero"
             content={
               <span className="flex items-end justify-start">
                 {genderPercentage === -1 ? (
