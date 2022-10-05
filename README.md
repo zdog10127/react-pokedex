@@ -1,17 +1,15 @@
 <br />
 <p align="center">
 
-  <h3 align="center">
-React Pokédex
-  </h3>
+<h1 align="center">
+    <p style="color:#C03028">React Pokédex</p>
+</h1>
 
-  ![GIF Screenshot](https://github.com/ShinteiMai/react-pokedex/blob/master/images/screenshot.gif)
+![GIF Screenshot](./images/screenshot.gif)
 
+## 🧪 Tecnologias
 
-<!-- Sobre o Projeto -->
-
-
-## Built With
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [PokéAPI](https://pokeapi.co/)
 - [React](https://reactjs.org/)
@@ -19,21 +17,29 @@ React Pokédex
 - [Tailwind CSS](https://tailwindcss.com/)
 - [redux-toolkit](https://redux-toolkit.js.org/)
 
-<!-- GETTING STARTED -->
+## 🚀 Como executar
 
-- npm
+Clone o projeto e acesse a pasta do mesmo.
 
-```sh
-npm install npm@latest -g
+```bash
+$ git clone https://github.com/zdog10127/react-pokedex
+$ cd react-pokedex
 ```
 
-### Installation
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn install
 
-1. Install NPM packages
-
-```sh
-yarn
+# Iniciar o projeto
+$ yarn start
 ```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-2. Run the local development server
+## 💻 Projeto
 
+Pokédex é uma biblioteca sobre todos os pokémons existentes no mundo e facil de ajudar quem quer saber mais sobre esse mundo. 
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
