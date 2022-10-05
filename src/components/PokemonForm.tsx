@@ -110,7 +110,7 @@ const PokemonForm = ({
         }
         onClick={submitFormHandler}
       >
-        Search
+        Pesquisar
       </button>
     </div>
   );
