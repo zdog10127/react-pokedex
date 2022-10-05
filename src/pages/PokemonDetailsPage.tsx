@@ -162,19 +162,19 @@ const PokemonDetailsPage = ({ match }: RouteComponentProps<MatchParams>) => {
                           handleSelect={() => setActiveTab("biography")}
                           isSelected={activeTab === "biography"}
                         >
-                          Biography
+                          Biografia
                         </Tab>
                         <Tab
                           handleSelect={() => setActiveTab("stats")}
                           isSelected={activeTab === "stats"}
                         >
-                          Stats
+                          Status
                         </Tab>
                         <Tab
                           handleSelect={() => setActiveTab("evolutions")}
                           isSelected={activeTab === "evolutions"}
                         >
-                          Evolutions
+                          Evoluções
                         </Tab>
                       </div>
                       <div className="relative mt-8 lg:h-178">

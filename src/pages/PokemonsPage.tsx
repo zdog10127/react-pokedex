@@ -19,10 +19,10 @@ const PokemonsPage = () => {
     <Layout title="Home">
       <div className="flex items-center justify-center lg:justify-start">
         <h1 className="text-3xl lg:text-5xl font-semibold sm:text-left inline-block">
-          React Pokédex
+          Pokédex
         </h1>
         <a
-          href="https://github.com/ShinteiMai/react-pokedex"
+          href="https://github.com/zdog10127/react-pokedex"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block ml-4 transform hover:opacity-50 hover:-translate-y-1 transition-all duration-150"
@@ -46,7 +46,7 @@ const PokemonsPage = () => {
           <>
             <div className="my-4 md:my-6 lg:my-8 w-full">
               <PokemonForm
-                placeholder="Search for a pokémon..."
+                placeholder="Procure um pokémon..."
                 mutatePage={mutatePage}
               />
             </div>
